@@ -1,0 +1,21 @@
+{	
+	"name": "flycartinc/validator",
+    	"description": "Do action and filters with Herbert",
+	"type": "library",
+    	"license": "MIT",
+	"authors": [
+		    {
+		      "name":     "Ashlin Rejo"
+		    }
+		],
+	"require": {
+		"php": ">=5.3.0"
+	    },
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"FlycartValidator\\": "src/"
+			}
+		}
+}
